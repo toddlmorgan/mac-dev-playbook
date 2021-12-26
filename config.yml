@@ -1,0 +1,219 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: true
+configure_terminal: true
+configure_osx: true
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove:
+- Launchpad
+- TV
+- Podcasts
+- 'App Store'
+- Messages
+- Mail
+- Maps
+- Photos
+- FaceTime
+- Calendar
+- Contacts
+- Notes
+- Music
+- News
+dockitems_persist: []
+# - name: "Sublime Text"
+#   path: "/Applications/Sublime Text.app/"
+#   pos: 5
+
+configure_sudoers: false
+sudoers_custom_config: ''
+# Example:
+# sudoers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
+dotfiles_repo: https://github.com/danielkoo/dotfiles.git
+dotfiles_repo_version: main
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/code/github/personal/dotfiles
+dotfiles_files:
+  - .bash_aliases
+  - .bash_profile
+  - .bashrc
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .tmux.conf
+  - .vimrc
+
+asdf_plugins:
+  - name: "ansible-base"
+    versions:
+      - 2.10.16
+    global: 2.10.16
+  - name: "direnv"
+    versions:
+      - 2.30.2
+    global: 2.30.2
+  - name: "golang"
+    versions:
+      - 1.17.5
+    global: 1.17.5
+  - name: "kubectl"
+    versions:
+      - 1.21.6
+    global: 1.21.6
+  - name: "python"
+    versions:
+      - 3.8.12
+    global: 3.8.12
+  - name: "shellcheck"
+    versions:
+      - 0.8.0
+    global: 0.8.0
+  - name: "shfmt"
+    versions:
+      - 3.4.2
+    global: 3.4.2
+  - name: "terraform"
+    versions:
+      - 0.13.5
+    global: 0.13.5
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  # - autoconf
+  # macos has an old version (3.2) of bash which does not work with kubectl completion
+  - bash
+  - bash-completion@2
+  # - cowsay
+  # - doxygen
+  # - gettext
+  # - gifsicle
+  # - git
+  # - github/gh/gh
+  # - go
+  - gpg
+  # - httpie
+  # - hub
+  # - iperf
+  - jq
+  # - libevent
+  # - mas
+  # - mcrypt
+  - moreutils
+  # - nmap
+  - openssl
+  # - php
+  # - pv
+  #  "rcm"
+  #  brew "reattach-to-user-namespace"
+  - readline
+  # - ssh-copy-id
+  # - sqlite
+  - the_silver_searcher
+  - tmux
+  # - universal-ctags
+  - vim
+  - watchman
+  - wget
+  # - wrk
+  # - zsh-history-substring-search
+  # for asdf
+  - "coreutils"
+  - "automake"
+  - "autoconf"
+  -  "openssl"
+  - "libyaml"
+  - "readline"
+  - "libxslt"
+  - "libtool"
+  - "unixodbc"
+  - "unzip"
+  - "unrar"
+  - "curl"
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - firefox
+  - google-chrome
+  # - handbrake
+  - iterm2
+  - rectangle
+    # - slack
+  - spideroakone
+  # - vagrant
+  # - visual-studio-code
+
+# Apple App Store
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  # mas install 803453959 # Slack
+  #- { id: 411643860, name: "Daisy Disk" }
+    # 1Password
+  # mas install 1287445660 # Agenda
+  - { id: 688211836, name: "EasyRes" }
+  # mas install 405399194 # Kindle
+  # mas install 1121192229 # Better Blocker
+  # mas install 1385985095 # uBlock
+  # mas install 926036361 # LastPass
+  #- { id: 1319778037, name: "iStat Menus" }
+  # mas install 1482920575 # DuckDuckGo Privacy Essentials
+  # mas install 1451685025 # WireGuard
+  # #mas install 1463400445 # Ecosia
+  # #mas upgrade
+mas_email: ""
+
+mas_password: ""
+mas_signin_dialog: true
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+# - name: drush
+#   state: present # present/absent, default: present
+#   version: "^8.1" # default: N/A
+gem_packages: []
+# - name: bundler
+#   state: present # present/absent/latest, default: present
+#   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+# - name: webpack
+#   state: present # present/absent/latest, default: present
+#   version: "^2.6" # default: N/A
+pip_packages: []
+# - name: mkdocs
+#   state: present # present/absent/latest, default: present
+#   version: "0.16.3" # default: N/A
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: false
+sublime_base_path: '~/Library/Application Support/Sublime Text'
+sublime_config_path: "Packages/User"
+sublime_package_control:
+  - "DocBlockr"
+  - "Dockerfile Syntax Highlighting"
+  - "FileDiffs"
+  - "GitHub Flavored Markdown Preview"
+  - "Jinja2"
+  - "Package Control"
+  - "PHP-Twig"
+  - "Pretty JSON"
+  - "SublimeLinter"
+  - "SublimeLinter-contrib-yamllint"
+  - "TrailingSpaces"
+  - "WordCount"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
