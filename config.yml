@@ -71,6 +71,7 @@ homebrew_installed_packages:
   - gpg
   # - httpie
   # - iperf
+  - jq
   # - libevent
   # - sqlite
   # - mcrypt
@@ -82,6 +83,9 @@ homebrew_installed_packages:
   # - cowsay
   - readline
   - openssl
+  - the_silver_searcher
+  - tmux
+  - vim
   # - pv
   - wget
   # - wrk
@@ -93,18 +97,15 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  # - chromedriver
   - docker
-  # - dropbox
   - firefox
   - google-chrome
   # - handbrake
-  # - licecap
-  # - sequel-ace
+  - iterm2
+  - rectangle
   - slack
-  # - sublime-text
-  # - transmit
   # - vagrant
+  # - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []

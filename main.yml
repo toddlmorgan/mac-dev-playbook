@@ -25,7 +25,7 @@
       when: configure_dock
       tags: ['dock']
     - role: osx_provisioner.asdf
-      tags: ['asdf']
+      tags: ['asdf-plugins']
 
   tasks:
     - import_tasks: tasks/sudoers.yml
