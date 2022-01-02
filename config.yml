@@ -134,7 +134,6 @@ homebrew_installed_packages:
   - "readline"
   - "libxslt"
   - "libtool"
-  - "rar"
   - "unixodbc"
   - "unzip"
   - "curl"
@@ -150,6 +149,7 @@ homebrew_cask_apps:
   - google-chrome
   # - handbrake
   - iterm2
+  - rar
   - rectangle
     # - slack
   - spideroakone
