@@ -83,6 +83,9 @@ asdf_plugins:
       - 0.13.5
     global: 0.13.5
 
+homebrew_uninstalled_packages:
+  - bash-completion
+
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   # - autoconf
@@ -156,22 +159,21 @@ homebrew_cask_apps:
 # Apple App Store
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  # mas install 803453959 # Slack
-  #- { id: 411643860, name: "Daisy Disk" }
-    # 1Password
-  # mas install 1287445660 # Agenda
+  # - { id: 1333542190, name: "1Password" }
+  # - { id: 1287445660, name: "Agenda" }
+  # - { id: 1121192229, name: "Better Blocker" }
+  - { id: 411643860, name: "Daisy Disk" }
+  # - { id: 1482920575, name: "DuckDuckGo Privacy Essentials" }
   - { id: 688211836, name: "EasyRes" }
-  # mas install 405399194 # Kindle
-  # mas install 1121192229 # Better Blocker
-  # mas install 1385985095 # uBlock
-  # mas install 926036361 # LastPass
-  #- { id: 1319778037, name: "iStat Menus" }
-  # mas install 1482920575 # DuckDuckGo Privacy Essentials
-  # mas install 1451685025 # WireGuard
-  # #mas install 1463400445 # Ecosia
-  # #mas upgrade
+  # - { id: 1463400445, name: "Ecosia" }
+  - { id: 1319778037, name: "iStat Menus" }
+  # - { id: 405399194, name: "Kindle" }
+  # - { id: 926036361, name: "LastPass" }
+  # - { id: 803453959, name: "Slack" }
+  # - { id: 1385985095, name: "uBlock" }
+  # - { id: 1451685025, name: "WireGuard" }
+mas_upgrade_all_apps: false
 mas_email: ""
-
 mas_password: ""
 mas_signin_dialog: true
 
