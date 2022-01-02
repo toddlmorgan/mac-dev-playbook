@@ -134,9 +134,9 @@ homebrew_installed_packages:
   - "readline"
   - "libxslt"
   - "libtool"
+  - "rar"
   - "unixodbc"
   - "unzip"
-  - "unrar"
   - "curl"
 
 homebrew_taps:
