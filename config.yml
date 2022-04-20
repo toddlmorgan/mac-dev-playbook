@@ -153,6 +153,7 @@ homebrew_cask_apps:
   - rectangle
     # - slack
   - spideroakone
+  - wireshark
   # - vagrant
   # - visual-studio-code
 
