@@ -67,8 +67,8 @@ asdf_plugins:
     global: 1.21.6
   - name: "python"
     versions:
-      - 3.8.12
-    global: 3.8.12
+      - 3.8.13
+    global: 3.8.13
   - name: "shellcheck"
     versions:
       - 0.8.0
