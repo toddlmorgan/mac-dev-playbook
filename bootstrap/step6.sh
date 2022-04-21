@@ -10,4 +10,4 @@ echo "installing mac-dev-playbook requirements"
 
 
 ansible-galaxy install -r requirements.yml
-ansible-playbook --skip-tags asdf-install main.yml --ask-become-pass
+ansible-playbook --skip-tags "asdf-install,dock" main.yml --ask-become-pass
