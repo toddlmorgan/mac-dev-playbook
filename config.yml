@@ -42,8 +42,7 @@ dotfiles_files:
   - .bash_aliases
   - .bash_profile
   - .bashrc
-  - .gitconfig
-  - .gitignore
+  - .config
   - .inputrc
   - .osx
   - .tmux.conf
