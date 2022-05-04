@@ -148,6 +148,7 @@ homebrew_cask_apps:
   - google-chrome
   # - handbrake
   - iterm2
+  - keyboard-maestro
   - microsoft-edge
   - rar
   - rectangle
