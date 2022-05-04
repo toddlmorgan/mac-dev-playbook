@@ -148,18 +148,19 @@ homebrew_cask_apps:
   - google-chrome
   # - handbrake
   - iterm2
+  - microsoft-edge
   - rar
   - rectangle
     # - slack
   - spideroakone
   - wireshark
   # - vagrant
-  # - visual-studio-code
+  - visual-studio-code
 
 # Apple App Store
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  # - { id: 1333542190, name: "1Password" }
+  - { id: 1333542190, name: "1Password" }
   # - { id: 1287445660, name: "Agenda" }
   # - { id: 1121192229, name: "Better Blocker" }
   - { id: 411643860, name: "Daisy Disk" }
@@ -169,7 +170,7 @@ mas_installed_apps:
   - { id: 1319778037, name: "iStat Menus" }
   # - { id: 405399194, name: "Kindle" }
   # - { id: 926036361, name: "LastPass" }
-  # - { id: 803453959, name: "Slack" }
+  - { id: 803453959, name: "Slack" }
   # - { id: 1385985095, name: "uBlock" }
   # - { id: 1451685025, name: "WireGuard" }
 mas_upgrade_all_apps: false
