@@ -5,8 +5,9 @@
 xcode-select --install
 ```
 
-## clone the repo and run the setup script
+## make ~/code the default place to store all repos
+## clone the repo into ~/code and run the setup script
 ```
-git clone https://github.com/danielkoo/mac-dev-playbook.git
+mkdir ~/code && cd ~/code && git clone https://github.com/danielkoo/mac-dev-playbook.git
 bootstrap/run.sh
 ```
