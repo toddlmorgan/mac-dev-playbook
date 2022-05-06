@@ -22,10 +22,17 @@ dockitems_remove:
 - Notes
 - Music
 - News
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
-#   pos: 5
+dockitems_persist:
+ - name: "Slack"
+   path: "/Applications/Slack.app/"
+ - name: "Safari"
+   path: "/Applications/Safari.app/"
+ - name: "Microsoft Edge"
+   path: "/Applications/Microsoft Edge.app/"
+ - name: "iTerm"
+   path: "/Applications/iTerm.app/"
+ - name: "Visual Studio Code"
+   path: "/Applications/Visual Studio Code.app/"
 
 configure_sudoers: false
 sudoers_custom_config: ''
