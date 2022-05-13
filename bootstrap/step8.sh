@@ -29,12 +29,6 @@ asdf global snyk latest
 
 # copy ca-certs.pem from OneDrive to /etc/ssl/certs/ca-certificates.crt
 
-
-copy .bash/ and friends
-set up .ssh/config and create new keys
-
-install Vim for vscode, and other extensions
-
 ####################
 # to build devlabsctl on the mac
 asdf install golang 1.16
@@ -53,3 +47,4 @@ mkdir -p ~/.vim/autoload
 pushd ~/.vim/autoload
 curl -O https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
