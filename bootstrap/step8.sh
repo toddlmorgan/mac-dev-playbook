@@ -37,8 +37,11 @@ go get -u github.com/go-bindata/go-bindata/...
 go install github.com/jstemmer/go-junit-report@latest
 go get  github.com/optiopay/klar
 
-# download klar
+# IAG download klar
 https://github.com/optiopay/klar/releases
+
+# get a nice git prompt in bash:
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 
 ####################
 
