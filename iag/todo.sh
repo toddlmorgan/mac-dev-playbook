@@ -53,3 +53,16 @@ mkdir -p ~/.vim/autoload
 pushd ~/.vim/autoload
 curl -O https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
+# tmux
+# make sure .tmux.conf is symlinked from the dotfiles repo
+# iterm2
+# add to profile
+# (tmux ls || tmux) && tmux attach-session
+# open a new iterm tab
+# then c-x c-s to save sessions
+# general->tmux: Automatically bury, unpause automatically
+# c-x r to reload the config and install the  plugins listed in the conf
+
+# to restore tabs and sizes when launching iterm
+# Disable System Preferences > General > Close windows when quitting an app to enable window restoration.
+
