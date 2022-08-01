@@ -7,6 +7,7 @@
 set -euo pipefail
 echo "installing dockutil v3 separately as homebrew does not support it yet"
 echo "see https://github.com/kcrawford/dockutil/issues/127"
+brew install jq
 
 DLURL=$(curl --silent "https://api.github.com/repos/kcrawford/dockutil/releases/latest" | jq -r .assets[].browser_download_url | grep pkg)
 curl -sL ${DLURL} -o /tmp/dockutil.pkg
