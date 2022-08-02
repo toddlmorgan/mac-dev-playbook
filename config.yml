@@ -119,6 +119,7 @@ homebrew_installed_packages:
   - readline
   - ripgrep
   - rmlint
+  - services
   - ssh-copy-id
   - the_silver_searcher
   - tmux
@@ -166,7 +167,6 @@ homebrew_cask_apps:
   - omnidisksweeper
   - postman
   - rar
-  - rectangle
   - slack
   - stats
   - temurin
