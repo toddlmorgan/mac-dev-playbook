@@ -169,25 +169,24 @@ homebrew_cask_apps:
   - rectangle
   - slack
   - stats
+  - temurin
   - the-unarchiver
-  - visual-studio-code
-  - wireshark
   - visual-studio-code
 
 # Apple App Store
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps:
-  - { id: 1333542190, name: "1Password" }
+mas_installed_apps: []
+  # - { id: 1333542190, name: "1Password" }
   # - { id: 1287445660, name: "Agenda" }
   # - { id: 1121192229, name: "Better Blocker" }
-  - { id: 411643860, name: "Daisy Disk" }
+  # - { id: 411643860, name: "Daisy Disk" }
   # - { id: 1482920575, name: "DuckDuckGo Privacy Essentials" }
-  - { id: 688211836, name: "EasyRes" }
+  # - { id: 688211836, name: "EasyRes" }
   # - { id: 1463400445, name: "Ecosia" }
-  - { id: 1319778037, name: "iStat Menus" }
+  # - { id: 1319778037, name: "iStat Menus" }
   # - { id: 405399194, name: "Kindle" }
   # - { id: 926036361, name: "LastPass" }
-  - { id: 803453959, name: "Slack" }
+  # - { id: 803453959, name: "Slack" }
   # - { id: 1385985095, name: "uBlock" }
   # - { id: 1451685025, name: "WireGuard" }
 mas_upgrade_all_apps: false
