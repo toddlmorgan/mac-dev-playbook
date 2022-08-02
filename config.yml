@@ -98,37 +98,36 @@ homebrew_installed_packages:
   # macos has an old version (3.2) of bash which does not work with kubectl completion
   - bash
   - bash-completion@2
-  # - cowsay
-  # - doxygen
-  # - gettext
-  # - gifsicle
-  # - git
-  # - github/gh/gh
-  # - go
+  - bat
+  - btop
+  - entr
+  - exa
+  - fzf
   - gpg
-  # - httpie
-  # - hub
-  # - iperf
+  - htop
+  - neofetch
+  - httpie
+  - iperf
   - jq
-  # - libevent
-  # - mas
-  # - mcrypt
   - moreutils
-  # - nmap
+  - ncdu
+  - neofetch
   - openssl
-  # - php
-  # - pv
+  - pv
   #  "rcm"
   #  brew "reattach-to-user-namespace"
   - readline
-  # - ssh-copy-id
-  # - sqlite
+  - ripgrep
+  - rmlint
+  - ssh-copy-id
   - the_silver_searcher
   - tmux
+  - tree
   # - universal-ctags
   - vim
   - watchman
   - wget
+  - zoxide
   # - wrk
   # - zsh-history-substring-search
   # for asdf
@@ -150,19 +149,29 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - apache-directory-studio
+  - cyberduck
+  - divvy
   - docker
   - firefox
   - google-chrome
   # - handbrake
+  - intellij-idea
   - iterm2
   - keyboard-maestro
+  - kdiff3
+  - keystore-explorer
   - microsoft-edge
+  - microsoft-remote-desktop
+  - omnidisksweeper
+  - postman
   - rar
   - rectangle
-    # - slack
-  - spideroakone
+  - slack
+  - stats
+  - the-unarchiver
+  - visual-studio-code
   - wireshark
-  # - vagrant
   - visual-studio-code
 
 # Apple App Store
